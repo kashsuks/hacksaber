@@ -1,3 +1,17 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+@keyframes glow-pulse {
+    0% {
+        box-shadow: 0px 0px 165px 38px rgba(255,46,224,1);
+    }
+
+    50% {
+        box-shadow: 0px 0px 165px 38px rgb(46, 199, 255);
+    }
+
+    100% {
+        box-shadow: 0px 0px 165px 38px rgba(255,46,224,1);
+    }
+}
