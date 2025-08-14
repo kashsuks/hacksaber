@@ -141,7 +141,7 @@
 
 	<h2 class="text-center text-4xl font-bold text-white">How do I submit?</h2>
 	<p class="mb-8 mt-2 text-center text-xl">
-		Send your map's .zip or <a href="https://beatsaver.com/">BeatSaver</a> link in #hacksaber!
+		Submission form doesn't exist right now :(
 	</p>
 
 	<hr class="mx-auto mt-12 w-[80vw] pb-8 pt-4" />
