@@ -1,3 +1,23 @@
+<script>
+	function dismissWarning() {
+		document.getElementById('warning').remove();
+	}
+</script>
+
+<div
+	class="fixed inset-0 z-50 flex flex-col items-center justify-center bg-black bg-opacity-96 p-6 text-center text-white"
+	id="warning"
+>
+	<h1 class="mb-4 text-4xl font-bold">⚠ Epilepsy Warning</h1>
+	<p class="mb-6 max-w-lg">
+		This site and YSWS both involve flashing lights, participation is not recommended if you suffer
+		from epilepsy.
+	</p>
+	<button on:click={dismissWarning} class="rounded bg-red-600 px-6 py-3 text-lg font-bold">
+		I Understand
+	</button>
+</div>
+
 <title>Hacksaber!</title>
 
 <div class="relative h-[100vh] overflow-hidden font-mono text-white">
@@ -36,6 +56,13 @@
 		<li class="mb-5">Submit your map in #hacksaber!</li>
 		<li class="">Redeem your prizes!</li>
 	</ol>
+
+	<h1 class="mt-16 text-center text-5xl text-white">Journalling</h1>
+	<p class="mb-8 ml-40 mr-40 mt-4 text-center text-xl">
+		When you spend some time working on your map, create a journal entry with a timestamp! It can be
+		in any format (.md is a good option) that's easily readable by us! <br /> <br />
+		Submit your entire journal with your project when you finish!
+	</p>
 </div>
 
 <div class="bg-gradient-to-b from-[#230c46] to-black pb-8">
@@ -128,7 +155,8 @@
 
 	<h2 class="mt-4 text-center text-4xl font-bold text-white">Join now! #hacksaber</h2>
 	<div class="mt-10 flex justify-center gap-4">
-		<img src="rednote.png" alt="red note" class="w-32" /> <!--XIAO HONG SHU-->
+		<img src="rednote.png" alt="red note" class="w-32" />
+		<!--XIAO HONG SHU-->
 		<img src="blunote.png" alt="blu note" class="w-32" />
 	</div>
 </div>
