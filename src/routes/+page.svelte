@@ -129,11 +129,6 @@
 
 	<hr class="mx-auto mb-2 w-[20vw] pb-2 pt-4" />
 
-	<h2 class="text-center text-4xl font-bold text-white">How do I sign up?</h2>
-	<p class="mb-8 mt-2 text-center text-xl">Just join #hacksaber and make a map!</p>
-
-	<hr class="mx-auto mb-2 w-[20vw] pb-2 pt-4" />
-
 	<h2 class="text-center text-4xl font-bold text-white">What does BeatLeader Supporter do?</h2>
 	<p class="mb-8 mt-2 text-center text-xl">
 		Gives star ratings for <b>every</b> custom map, and the best custom saber mod available! (reesabers)
